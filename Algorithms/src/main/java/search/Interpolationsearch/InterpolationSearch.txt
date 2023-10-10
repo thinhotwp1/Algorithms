@@ -1,0 +1,9 @@
+- Tìm kiếm nội suy thường nhanh hơn tìm kiếm nhị phân trong một số trường hợp vì nó tận dụng thông tin về phân phối của dãy số.
+
+- Tìm kiếm nội suy sẽ tiết kiệm nhiều thời gian hơn so với tìm kiếm nhị phân nếu dãy được phân phối đều (có quy luật)
+VD: 0,1,2,3,... hay 2,4,6,8,...
+
+- Chỉ cần hiểu không nên áp dụng tìm kiếm nội suy, ở nhiều trường hợp tìm kiếm nội suy tạo vòng lặp while vô hạn và không cải thiện
+quá nhiều so với tìm kiếm nhị phân, đã không nhanh hơn được nhiều còn gây lỗi ==> đọc cho biết thôi :))
+
+----- (Đây là lí do tại sao Binary Search được viết thành thư viện trong java còn Interpolation Search thì không) -----
