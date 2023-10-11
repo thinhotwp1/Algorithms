@@ -1,12 +1,11 @@
 package sort.selectionsort;
 
 /**
- * - Bubble Sort sắp xếp dựa dựa trên cách cho phần tử đầu tiên là min, nếu có phần tử nhỏ hơn trong
+ * - Selection Sort sắp xếp dựa dựa trên cách cho phần tử đầu tiên là min, nếu có phần tử nhỏ hơn trong
  * những phần tử còn lại của mảng thì cho đó là phần tử nhỏ nhât, lần lượt duyệt và tìm các phần tử
- * còn lại, sử dụng mảng 2 chiều nên độ phức tạp thuật toán là rất cao O(n^2)
+ * còn lại, sử dụng mảng 2 chiều nên độ phức tạp thuật toán là O(n^2)
  * <p>
- * - Bubble Sort không thực sự hiệu quả kể cả khi với một mảng nhỏ, vì độ phức tạp quá lớn khi duyệt lần
- * lượt và so sánh 2 phần tử gần nhau => nên sử dụng các giải thuật tìm kiếm khác.
+ * - Selection Sort không thực sự hiệu quả với mảng lớn chứa nhiều dữ liệu, chỉ sử dụng với mảng nhỏ.
  */
 public class SelectionSort {
     public static void main(String[] args) {
